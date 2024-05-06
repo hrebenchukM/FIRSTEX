@@ -91,9 +91,6 @@ var Student = /** @class */ (function () {
             row.innerHTML = "\n                <td>".concat(this._name, "</td>\n                <td>").concat(this._birthDate, "</td> \n                <td>").concat(this._contactPhone, "</td>\n                <td>").concat(this._city, "</td>\n                <td>").concat(this._country, "</td>\n                <td>").concat(this._company, "</td>\n                <td>").concat(this._groupNumber, "</td>\n            ");
             table.appendChild(row);
         }
-        else {
-            console.error("Table element not found!");
-        }
     };
     return Student;
 }());

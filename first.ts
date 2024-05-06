@@ -94,9 +94,7 @@ class Student {
                 <td>${this._groupNumber}</td>
             `;
             table.appendChild(row);
-        } else {
-            console.error("Table element not found!");
-        }
+        } 
     }
     
     
