@@ -1,5 +1,6 @@
 
 
+
 class Student {
     
     private _name: string;// модификатор доступа private - указывает что данное поле закрытое и не доступно за пределами класса
@@ -109,3 +110,18 @@ let students: Student[] = [
 students.forEach(student => {
     student.printToTable();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
